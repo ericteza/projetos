@@ -503,7 +503,7 @@ body.modo-claro {
         z-index: 1;
         position: absolute;
         left: -20px;
-        top: 21.5%;
+        top: 25.1%;
         object-fit: contain;
     }
     .secao-conteudo h2 {
@@ -603,7 +603,7 @@ body.modo-claro {
         margin-left: -20px;
         position: absolute;
         bottom: -20px;
-        top: 29%; /* Ajuste a altura para dispositivos menores */
+        top: 33.5%; /* Ajuste a altura para dispositivos menores */
         left: 15px;
     }
     .secao-conteudo {
@@ -673,7 +673,7 @@ body.modo-claro {
     }
     .canvas-personagem {
         position: absolute;
-        top: 73%;
+        top: 79%;
         left: 30%;
         transform: translateX(-50%);
         max-width: 150px; 
