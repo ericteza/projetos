@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t3za - Portfólio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="modo-escuro">
+    <div id="tela-carregamento" class="tela-carregamento">
+        <div class="carregador-giratorio"></div>
+        <p>Carregando arte e sons...</p>
+    </div>
+    <div class="container-portfolio">
+        <header class="cabecalho">
+            <h1 class="nome">t3za</h1>
+            <div class="controles-cabecalho">
+                <button id="alternar-musica" class="alternar-musica">
+                    <img src="icon-music-on.png" alt="Alternar Música" class="icone-pixel icone-musica">
+                </button>
+                <button id="alternar-tema" class="alternar-tema">
+                    <img src="icon-sun.png" alt="Alternar Tema" class="icone-pixel icone-tema">
+                </button>
+                <div class="menu-dropdown">
+                    <button class="alternar-dropdown" id="alternar-menu">
+                        <img src="menu-chest.png" alt="Ícone de Baú" class="icone-pixel">
+                    </button>
+                    <nav class="conteudo-dropdown" id="conteudo-dropdown">
+                        <a href="#" class="item-menu" data-section="sobre">
+                            <img src="icon-about.png" alt="Sobre Mim" class="icone-pixel">
+                            Sobre Mim
+                        </a>
+                        <a href="#" class="item-menu" data-section="certificacoes">
+                            <img src="icon-certifications.png" alt="Certificações" class="icone-pixel">
+                            Certificações
+                        </a>
+                        <a href="https://www.linkedin.com/in/ericteza/" target="_blank" class="item-menu">
+                            <img src="icon-linkedin.png" alt="LinkedIn" class="icone-pixel">
+                            LinkedIn
+                        </a>
+                        <a href="mailto:tezapv@gmail.com" class="item-menu">
+                            <img src="icon-contact.png" alt="Contato" class="icone-pixel">
+                            Contato
+                        </a>
+                        <div class="icones-linguagem">
+                            <img src="logo-html.png" alt="HTML" class="icone-pixel icone-linguagem">
+                            <img src="logo-css.png" alt="CSS" class="icone-pixel icone-linguagem">
+                            <img src="logo-js.png" alt="JavaScript" class="icone-pixel icone-linguagem">
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="conteudo-principal">
+            <canvas id="canvas-sprite" class="canvas-personagem"></canvas>
+            <section id="secao-sobre" class="secao-conteudo oculto">
+                <img src="icon-close.png" alt="Fechar" class="icone-pixel botao-fechar" id="botao-fechar-sobre">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Eu sou t3za, um entusiasta do desenvolvimento web apaixonado por criar experiências digitais incríveis. Com um foco em HTML, CSS e JavaScript, busco constantemente aprender e aplicar as melhores práticas para construir aplicações robustas e visualmente atraentes. Este portfólio é uma pequena amostra do meu universo pixelado e das minhas habilidades!</p>
+            </section>
+            <section id="secao-certificacoes" class="secao-conteudo oculto">
+                <img src="icon-close.png" alt="Fechar" class="icone-pixel botao-fechar" id="botao-fechar-certificacoes">
+                <h2>Certificações</h2>
+                <ul>
+                    <li>Certificação em HTML5 e CSS3 - [Plataforma]</li>
+                    <li>Certificação em JavaScript Essencial - [Plataforma]</li>
+                    <li>Certificado de Conclusão - [Curso Específico]</li>
+                </ul>
+            </section>
+        </main>
+        <a href="https://wa.me/qr/OQH76ALXRTKWB1" target="_blank" class="botao-whatsapp">
+            <img src="icon-whatsapp.png" alt="WhatsApp" class="icone-pixel">
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
